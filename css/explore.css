@@ -1,0 +1,65 @@
+.explore{
+position: relative;
+width: 100%;
+/* height: 100%; */
+margin-top: 58vh;
+
+
+
+}
+
+
+.explore img{
+    position: sticky;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+    object-fit: cover;
+    object-position: top;
+}
+
+.exploremain{
+    position: absolute;
+    top:0%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    text-align: center;
+    z-index: 5;
+}
+
+.exploremain h3{
+    padding: 1rem;
+    margin: auto;
+}
+
+.exploremain h1 span{   
+    color:var(--primarycolor) ;
+}
+
+.exploretext{
+    display: flex;
+    margin:10rem auto;
+    
+    font-size: 2rem;
+}
+
+.exploretext p{
+    width: 40%;
+    margin: auto;
+    text-align: justify;
+    line-height: 1.5;
+    word-spacing: .5rem;
+    display: block;
+    color: var(--secondaycolor);
+}
+
+.history-vid{
+    position:absolute;
+    top: 100%;
+    left: 50%;
+    transform:translateX(-50%);
+    width: 80%;
+}
+
+
+

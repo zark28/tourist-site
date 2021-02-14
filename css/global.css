@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+
+:root{
+  /* fonts */
+  --headerfont:'Montserrat', sans-serif;
+  --bodyfont:'Roboto', sans-serif;
+  --fontsize1:4rem;
+  --fontsize2:1.5rem;
+  /* --otherfont:Aktiv ; */
+
+  /* colors */
+
+  --primarycolor:#AD764A;
+  --secondaycolor:#FEFEFE;
+  --tetiarycolor:#313733;
+  --othercolor:#385D6A;
+  
+}
+
+
+body,html {
+   font-family: sans-serif;
+   width: 100vw;
+   height: auto;
+   font-size: 10px;
+   
+}
+
+body{
+  overflow-x: hidden;
+}
+
+a ,li{
+  text-decoration: none;
+  list-style: none;
+}
+
+h3{
+  font-size: var(--fontsize2);
+  color: var(--primarycolor);
+}
+
+h1{
+  font-size: var(--fontsize1);
+  color: var(--secondaycolor);
+}
+
+

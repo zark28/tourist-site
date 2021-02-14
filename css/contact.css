@@ -1,0 +1,31 @@
+.contact{
+    background-color: #7E5A36;
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    top: 445%;
+    
+}
+
+.contactheader{
+    /* background-color: #cfb59a; */
+    text-align: center;
+}
+
+.contactheader p{
+    line-height: 1.5;
+}
+
+.contactheader h3{
+    padding: 2rem;
+}
+
+.contactheader h1 > span{
+color: var(--tetiarycolor);
+}
+
+.contactheader > p{
+padding: 2rem;
+font-size: 2rem;
+color: var(--secondaycolor);
+}

@@ -1,0 +1,128 @@
+.articles{
+    position: absolute;
+    background-color: #7E5A36;
+    background-image: url(../img/articles1.jpg);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 172%;
+    z-index: 4;
+    /* background-blend-mode: color-dodge; */
+
+}
+
+.mainheader{
+    position: relative;
+    width: 100%;
+    height: 30%;
+    /* background: #7E5A36; */
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainheader h1{
+    text-align: center;
+    color: var(--secondaycolor);
+}
+.mainheader h1 span,.mainheader h3{
+color: var(--tetiarycolor);
+}
+
+.articlestext{
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+}
+
+.articlestext article:first-of-type{
+    margin-bottom: 10rem;
+}
+
+.article{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.articlestory{
+    width: 40%;
+    font-size: 2rem;
+    line-height: 1.5;
+    color:var(--secondaycolor);
+}
+
+.articlestory p{
+    margin:2rem 0;
+}
+.articles button{
+    background: none;
+    outline: none;
+    border: none;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+
+.articleimg{
+    position: relative;
+    width: 20%;    
+}
+.articleimg::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top:13%;
+    left: -10%;
+    transform: translate(-50%,-50%);
+    width: 125%;
+    height: 80%;
+    transform: rotate(-49deg);
+    background:linear-gradient(180deg, #af825698 60%, #af825600);
+    
+}
+.articleimg2::after {
+    background:linear-gradient(-90deg, #af825646 40%,  #c5af9900);
+    width: 100%;
+    height: 130%;
+    top: 0%;
+    left: 0%;
+    border-radius: 50%;
+}
+
+.articleimg img{
+    width: 100%;
+}
+
+
+
+
+.show{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding: 2rem;
+}
+
+.show >button{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 2rem 2.5rem;
+    border: .3rem solid;
+    text-decoration: none;
+}
+.show >button img{
+    margin: 0;
+    width: 4rem;
+    padding: .5rem;
+
+}

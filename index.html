@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A visual tour of Ghanaian tourist sites and tour guide bookings">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>A.A.R Tours || Home page </title>
+</head>
+<body>
+    <!-- header with nav or landing page -->
+    <header>
+        <video autoplay muted loop class="vid-bg">
+            <source src="./videos/vid-bg2.mp4" type="video/mp4">
+        </video>
+        
+        <nav>
+            <a href="#" class="logo"><img src="./img/logo.svg" alt="Logo of Tour company" ></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#explore" class="nav-link">Explore</a></li>
+                <li><a href="#articles" class="nav-link">Articles</a></li>
+                <li><a href="#gallaries" class="nav-link">Galaries</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+
+            </ul>
+        </nav>
+
+        <main class="headermain">
+            <h3>THE ANCIENT WORLD</h3>
+            <h1>Discover the awe-inspiring<br> 
+                Pyramids of Giza and ancient Egypt
+            </h1>
+        </main>
+        <img src="./img/pyramidnew.png" alt="pyramid of giza" class="pyramid-img">        
+    </header>
+
+    <!-- Explore section -->
+   <section class="explore" id="explore">
+
+        <img role="banner" src="./img/desert5.png" alt="desert of giza" class="desert-img">
+        
+        <main class="exploremain">
+            <h3>THE ANCIENT</h3>
+            <h1>
+                Egyptian <span>civilization</span>
+            </h1>
+            <div class="exploretext">
+                <p>
+                    The ancient Egyptian civilization, famous for Pyramids, Pharaohs, Mummies and Tombs Flourished for thousands of years, But what was its lasting impact?
+                </p>
+
+                <p>
+                    Watch the video below to learn how ancient Egypt contributed to morden-day society with its many cultural developments, particularly in language and mathematics.
+                </p>
+            </div>
+            <video controls class="history-vid" poster="./img/vid-placeholder.jpg">
+                <source src=''>
+            </video>
+        </main>
+        
+
+        
+   </section> 
+
+   <!-- Articles section -->
+   <section class="articles" id="articles">
+    
+    <main class="articlesmain">
+        <div class="mainheader">
+            <h3>10 THINGS</h3>
+        <h1>
+            You probably don't know <br>
+            about <span>ancient Egypt</span>
+        </h1>
+        </div>
+        <div class="articlestext">
+            <article class="article">
+                <div class="articlestory">
+                    <h2>His original name was Not Tutankhamun</h2>
+                    <p>
+                        Tutankhamun was originally named Tutankhaten. this name, which originally means "living image of the Aten",
+                        reflected the fact that Tutankhaten's parents worshiped a sun god known as "the Aten". After a few year on the throne the young kings
+                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda optio aliquam fugiat voluptatum perferendis asperiores id architecto iure tempore placeat?</span>
+                    </p>
+                    <button onclick="readMore()">Read More</button>
+                </div>
+                <div class="articleimg">
+                    <img src="./img/tatunkhamun.png" alt="picture of Tatunkhamun's golden statue">
+                </div>
+            </article>        
+
+            <article class="article">
+                <div class="articleimg articleimg2">
+                    <img src="./img/egypt-cat.png" alt="picture of Tatunkhamun's golden statue">
+                </div>
+                <div class="articlestory">
+                    <h2>Cats were represented In religious practices</h2>
+                    <p>
+                        Cats in the ancient Egypt were represented in social and religious practices of Ancient Egyptfor more than 30 centries. Several Ancient Egyptian 
+                        deities were depicted and sculptured with cat-like heads such as Mafdet, Baster and Sekhmet, representing justice, fertility and power respectively. the diety Mut was also depicted as a cat and in the company of a cat.
+                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda optio aliquam fugiat voluptatum perferendis asperiores id architecto iure tempore placeat?</span>
+                    </p>
+                    <button onclick="readMore()">Read More</button>
+                </div>
+                
+            </article>
+
+            
+        </div>
+        
+    </main>
+    
+        <div class="show">
+            <Button >SHOW MORE <img src="./img/svgs/arrow-thin-right.svg"></Button>
+        </div>
+</section>
+
+<!-- gallaries section -->
+<section class="gallaries" id="gallaries">
+    <div class="gallheader">
+        
+            <h3>GO BACK IN TIME</h3>
+        <h1>
+            With our top <span>experiences</span>
+        </h1>
+        <p>
+            magnificent monuments, lush delta and with it's long past and <br>
+            welcoming story-loving people.
+        </p>
+    </div>
+
+    <main class="gallmain">
+        <a href="" class="gallbtnback gallbtn">
+            <img src="./img/svgs/arrow-thin-left.svg" alt="left arrow">
+            <p>Back</p>
+        </a>
+        <div class="gallcontainer">
+            <div class="gallimgbox">
+                <div class="gallimg gallimg1">
+                    
+                </div>
+            
+                <div class="gallimgtext">
+                    <div>
+                        <h3>GIZA</h3>
+                        <p>
+                            Red Pyramid
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallimgbox">
+                <div class="gallimg gallimg2">
+                    
+                </div>
+            
+                <div class="gallimgtext">
+                    <div>
+                        <h3>CAIRO</h3>
+                        <p>
+                            Giza Pyramids
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallimgbox">
+                <div class="gallimg gallimg3">
+                    
+                </div>
+            
+                <div class="gallimgtext">
+                    <div>
+                        <h3>LUXOR</h3>
+                        <p>
+                            Valley of Kings
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <a href="" class="gallbtnnext gallbtn">
+            <img src="./img/svgs/arrow-thin-right.svg" alt="right arrow">
+            <p>
+                Next
+            </p>
+        </a>
+    </main>
+</section>
+
+
+    <!-- contact section-->
+<section class="contact" id="contact">
+    <div class="contactheader">
+        
+            <h3>THANK YOU</h3>
+        <h1>
+           To  our Sponsors and <br> Event <span>Partners</span>
+        </h1>
+    </div>
+
+    <main class="contactmain">
+       
+    </main>
+</section>
+
+   <script src="./script/app.js"></script>
+</body>
+</html>
