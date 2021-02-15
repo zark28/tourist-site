@@ -20,20 +20,26 @@ margin-top: 58vh;
 
 .exploremain{
     position: absolute;
-    top:2%;
+    top:1%;
     left: 50%;
     transform: translate(-50%,50%);
     text-align: center;
     z-index: 5;
 }
 
+.exploremain  h3, .exploremain h1{  
+    background:linear-gradient(to right,#ad764a26,#70492aa9,#ad764a26);
+
+}
+
 .exploremain h3{
     padding: 1rem;
     margin: auto;
+
 }
 
 .exploremain h1 span{   
-    color:var(--primarycolor) ;
+    color:var(--primarycolor) ;    
 }
 
 .exploretext{
