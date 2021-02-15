@@ -21,6 +21,7 @@ header{
 
 nav, header main{
  position: fixed;
+ z-index: 4;
 }
 
 /* navigation */
@@ -56,6 +57,8 @@ nav{
 }
 .nav-link{
     color: var(--secondaycolor);
+    background-color: chocolate;
+    padding: .5rem;
 
 }
 

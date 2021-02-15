@@ -3,11 +3,12 @@
     position: absolute;
     z-index: 5;
     width: 100%;
-    top: 445%;
+    top: 460%;
     
 }
 
 .contactheader{
+    margin-top: 25rem;
     /* background-color: #cfb59a; */
     text-align: center;
 }
